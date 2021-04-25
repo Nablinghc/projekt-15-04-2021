@@ -36,3 +36,121 @@
     transform: rotate(360deg);
   }
 }
+
+/*  Navigation START */
+li:nth-of-type(1) {
+  background-color: darkblue;
+  width: 25px;
+  border-radius: 7px;
+}
+
+li:nth-of-type(2) {
+  background-color: yellowgreen;
+  width: 25px;
+  border-radius: 7px;
+}
+
+li:nth-of-type(3) {
+  background-color: rosybrown;
+  width: 25px;
+  border-radius: 7px;
+}
+
+li:nth-of-type(4) {
+  background-color: goldenrod;
+  width: 25px;
+  border-radius: 7px;
+}
+/*  Navigation END */
+
+
+/*  FrontSection START */
+#FrontSect {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: auto 63% auto;
+  grid-template-areas:
+      ". . logo"
+      "GetInTouch MaintainAble WhatWeDo"
+      ". . AndYet";
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+#FrontSect img:nth-of-type(1) {
+  grid-area: logo;
+  width: 65%;
+  position: relative;
+  top: 55px;
+  left: 74px;
+}
+
+
+#FrontSect img:nth-of-type(2) {
+  grid-area: GetInTouch;
+}
+
+#FrontSect img:nth-of-type(3) {
+  grid-area: MaintainAble;
+}
+
+#FrontSect img:nth-of-type(4) {
+  grid-area: WhatWeDo;
+}
+
+#FrontSect h6 {
+  grid-area: AndYet;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  left: 6px;
+  width: 210px;
+  height: 26px;
+}
+
+
+/*  FrontSection END */
+
+
+
+
+
+
+
+
+
+
+
+#GetInTouchSect {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: auto 63% auto;
+  grid-template-areas:
+      ". . . ."
+      ". . . ."
+      ". . . .";
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  width: 45%;
+}
+
+#GetInTouchSect img:nth-of-type(1) {
+  grid-area: ;
+}
+
+#GetInTouchSect img:nth-of-type(2) {
+
+}
+
+#GetInTouchSect img:nth-of-type(3) {
+
+}
+
+#GetInTouchSect img:nth-of-type(4) {
+
+}
