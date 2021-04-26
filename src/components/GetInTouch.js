@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Navigation from "../components/Navigation";
 
 const GetInTouch = () => {
 
@@ -6,6 +7,7 @@ const GetInTouch = () => {
 
     <Fragment>
       <section class="GetInTouchSect">
+      <Navigation />
         {/* <div id="returnBotton">R</div>
         <div id="box_1" style={{borderBottomColor: "coral", borderBottomStyle: "solid"}}>What We Do Box</div>
         <div id="box_2">Maintain Able Box</div>

@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Router>
       <main id="mainGrid">
-        <Navigation />
+        
             <Switch> {/* Lav aldrig dots foran slash på Routes... Men gerne på Navigation/ Link... */}
               <Route exact path="/Front" component={Front}><Front /></Route>
               <Route exact path="/GetInTouch" component={GetInTouch}><GetInTouch /> </Route>

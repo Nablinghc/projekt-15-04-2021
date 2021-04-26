@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Navigation from "../components/Navigation";
 
 const WhatWeDo = () => {
 
@@ -6,6 +7,7 @@ const WhatWeDo = () => {
 
     <Fragment>
       <section class="WhatWeDoSect">
+      <Navigation />
         {/* <div id="returnBotton">R</div>
         <div id="box_1">What We Do Box</div>
         <div id="box_2">Maintain Able Box</div>

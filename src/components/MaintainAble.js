@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Navigation from "../components/Navigation";
 
 const MaintainAble = () => {
 
@@ -6,6 +7,7 @@ const MaintainAble = () => {
 
     <Fragment>
       <section class="MaintainAbleSect">
+      <Navigation />
         {/* <div id="returnBotton">R</div>
         <div id="box_1">What We Do Box</div>
         <div id="box_2" style={{borderBottomColor: "coral", borderBottomStyle: "solid"}}>Maintain Able Box</div>

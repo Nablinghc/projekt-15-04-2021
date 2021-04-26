@@ -37,45 +37,38 @@
   }
 }
 
-/*  Navigation START */
-li:nth-of-type(1) {
-  background-color: darkblue;
-  width: 25px;
-  border-radius: 7px;
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  top: 14%;
+  left: 26.7%;
+  z-index: 1000;
 }
 
-li:nth-of-type(2) {
-  background-color: yellowgreen;
-  width: 25px;
-  border-radius: 7px;
+li {
+  display: inline-block;
 }
-
-li:nth-of-type(3) {
-  background-color: rosybrown;
-  width: 25px;
-  border-radius: 7px;
-}
-
-li:nth-of-type(4) {
-  background-color: goldenrod;
-  width: 25px;
-  border-radius: 7px;
-}
-/*  Navigation END */
 
 
 /*  FrontSection START */
 #FrontSect {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr;
-  grid-template-rows: auto 63% auto;
+  grid-template-rows: auto auto 63% auto;
   grid-template-areas:
+      "Nav Nav Nav"
       ". . logo"
       "GetInTouch MaintainAble WhatWeDo"
       ". . AndYet";
   position: absolute;
   top: 10%;
   left: 30%;
+}
+
+#navigation {
+  grid-area: Nav;
 }
 
 #FrontSect img:nth-of-type(1) {
@@ -246,7 +239,7 @@ li:nth-of-type(4) {
     "Banner . . . WhatWeDo";
   width: 38%;
   position: absolute;
-  top: 0%;
+  top: 2%;
   left: 30%;
 }
 
@@ -283,3 +276,64 @@ li:nth-of-type(4) {
 
 
 /*  WhatWeDoSection END */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  /*  FrontSection START */
+#FrontSect {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: auto 63% auto;
+  grid-template-areas:
+      ". . logo"
+      "GetInTouch MaintainAble WhatWeDo"
+      ". . AndYet";
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+#FrontSect img:nth-of-type(1) {
+  grid-area: logo;
+  width: 65%;
+  position: relative;
+  top: 55px;
+  left: 74px;
+}
+
+
+#FrontSect img:nth-of-type(2) {
+  grid-area: GetInTouch;
+}
+
+#FrontSect img:nth-of-type(3) {
+  grid-area: MaintainAble;
+}
+
+#FrontSect img:nth-of-type(4) {
+  grid-area: WhatWeDo;
+}
+
+#FrontSect h6 {
+  grid-area: AndYet;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  left: 6px;
+  width: 210px;
+  height: 26px;
+}
+
+
+/*  FrontSection END */
+}
