@@ -123,34 +123,163 @@ li:nth-of-type(4) {
 
 
 
+/*  GetInTouchSection START */
 
-
-#GetInTouchSect {
+.GetInTouchSect {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-  grid-template-rows: auto 63% auto;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 2.5fr;
+  grid-template-rows: 1fr 0.4fr 1.6fr 1.5fr 1fr;
+  gap: 0px 15px;
   grid-template-areas:
-      ". . . ."
-      ". . . ."
-      ". . . .";
+    "Knapper . . . ."
+    "Banner ThereForYou ThereForYou ThereForYou ThereForYou"
+    "Banner FyldTekst FyldTekst FyldTekst FyldTekst"
+    "Banner Billede1 Billede2 Billede3 ."
+    "Banner . . GetInTouch .";
+  width: 38%;
   position: absolute;
   top: 10%;
   left: 30%;
-  width: 45%;
 }
 
-#GetInTouchSect img:nth-of-type(1) {
-  grid-area: ;
+.Knapper { grid-area: Knapper; }
+
+.Banner { grid-area: Banner; }
+
+.ThereForYou { grid-area: ThereForYou; }
+
+.FyldTekst { grid-area: FyldTekst; }
+
+.Billede1 { grid-area: Billede1; }
+
+.Billede2 { grid-area: Billede2; }
+
+.Billede3 { grid-area: Billede3; }
+
+.GetInTouch { 
+  grid-area: GetInTouch;
+  position: relative;
+  top: -62%;
+  left: 40%;
+  background-color: black;
+  color: white;
+  height: 29px;
+  width: 120px;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  padding: 5px;
+  margin-top: -50px;
+  font-size: 20px;
 }
 
-#GetInTouchSect img:nth-of-type(2) {
 
+/*  GetInTouchSection END */
+
+/*  MaintainAble START */
+
+.MaintainAbleSect {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 2.5fr;
+  grid-template-rows: 1fr 0.4fr 1.6fr 1.5fr 1fr;
+  gap: 0px 15px;
+  grid-template-areas:
+    "Knapper . . . ."
+    "Banner ThereForYou ThereForYou ThereForYou ThereForYou"
+    "Banner FyldTekst FyldTekst FyldTekst FyldTekst"
+    "Banner . . . ."
+    "Banner . . . MaintainAble";
+  width: 38%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
 }
 
-#GetInTouchSect img:nth-of-type(3) {
+.KnapperM { grid-area: Knapper; }
 
+.BannerM { grid-area: Banner; }
+
+.KeepYourAlll { grid-area: ThereForYou; }
+
+.FyldTekstM { grid-area: FyldTekst; }
+
+/* .Billede1M { grid-area: Billede1; }
+
+.Billede2M { grid-area: Billede2; }
+
+.Billede3M { grid-area: Billede3; } */
+
+.MaintainAble { 
+  grid-area: MaintainAble;
+  position: relative;
+  top: -62%;
+  left: 40%;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 140px;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  padding: 5px;
+  margin-top: -50px;
+  font-size: 20px;
 }
 
-#GetInTouchSect img:nth-of-type(4) {
 
+/*  MaintainAbleSection END */
+
+
+
+/*  WhatWeDoSection START */
+
+.WhatWeDoSect {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 2.5fr;
+  grid-template-rows: 1fr 0.4fr 1.6fr 1.5fr 1fr;
+  gap: 0px 15px;
+  grid-template-areas:
+    "Knapper . . . ."
+    "Banner ThereForYou ThereForYou ThereForYou ThereForYou"
+    "Banner FyldTekst FyldTekst FyldTekst FyldTekst"
+    "Banner . . . ."
+    "Banner . . . WhatWeDo";
+  width: 38%;
+  position: absolute;
+  top: 0%;
+  left: 30%;
 }
+
+.KnapperM { grid-area: Knapper; }
+
+.BannerM { grid-area: Banner; }
+
+.KeepYourAlll { grid-area: ThereForYou; }
+
+.FyldTekstM { grid-area: FyldTekst; }
+
+/* .Billede1M { grid-area: Billede1; }
+
+.Billede2M { grid-area: Billede2; }
+
+.Billede3M { grid-area: Billede3; } */
+
+.WhatWeDo { 
+  grid-area: WhatWeDo;
+  position: relative;
+  top: -162%;
+  left: 25%;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 140px;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  padding: 5px;
+  margin-top: -50px;
+  font-size: 20px;
+}
+
+
+/*  WhatWeDoSection END */
