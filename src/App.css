@@ -1,4 +1,4 @@
-#root {
+body {
   background-color: #efb669;
 }
 
@@ -64,11 +64,12 @@ li {
     "Nav . Logo"
     "B1 B2 B3"
     "B1 B2 B3"
-    ". . Tekst";
+    ". . BundTekst";
   position: relative;
   top: 0em;
   left: 30%;
-  width: 1000px;
+  width: 700px;
+  height: 100vh;
 }
 
 
@@ -76,6 +77,9 @@ li {
   grid-area: Nav;
   z-index: 1000;
   align-self: end;
+  position: relative;
+  top: 0%;
+  left: -47px;
 }
 
 .pixel50 {
@@ -104,17 +108,17 @@ li {
   
 }
 
-#FrontSect h6 {
-  grid-area: Tekst;
+#AYMTM {
+  grid-area: BundTekst;
   font-size: 16px;
-  width: 185px;
-  margin-top: 0px;
+  margin-top: 240px;
   text-align: center;
   background-color: black;
   color: white;
+  width: 240px;
+  height: 30px;
   padding: 5px 10px 5px 10px;
-  margin-left: 5px;
-  height: 40px;
+  margin-left: -45px;
 }
 
 
@@ -145,7 +149,8 @@ li {
   position: relative;
   top: 0em;
   left: 30%;
-  width: 1000px;
+  width: 700px;
+  height: 100vh;
 }
 
 #navigation {
@@ -238,7 +243,8 @@ li {
   position: relative;
   top: 0em;
   left: 30%;
-  width: 1000px;
+  width: 700px;
+  height: 100vh;
 }
 
 #navigation {
@@ -304,7 +310,7 @@ li {
 }
 
 #MaintainAbleSect span {
-  color: #d18014;
+  color: #1089ae;
 }
 
 #MaintainAbleSect p {
@@ -349,7 +355,8 @@ li {
   position: relative;
   top: 0em;
   left: 30%;
-  width: 1000px;
+  width: 700px;
+  height: 100vh;
 }
 
 #navigation {
@@ -415,7 +422,7 @@ li {
 }
 
 #WhatWeDoSect span {
-  color: #d18014;
+  color: #045872;
 }
 
 #WhatWeDoSect p {
