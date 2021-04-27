@@ -8,7 +8,7 @@ const Front = () => {
         <Fragment>
             <section id="FrontSect">
             <Navigation />
-                <img src="/assets/logo/logo-final.png" alt="What we do banner"></img>
+                <img id="logo" src="/assets/logo/logo-final.png" alt="What we do banner"></img>
                 <img src="/assets/img/front-what-we-do.png" alt="What we do banner"></img>
                 <img src="/assets/img/front-maintainable.png" alt="What we do banner"></img>
                 <img src="/assets/img/front-get-in-touch.png" alt="What we do banner"></img>

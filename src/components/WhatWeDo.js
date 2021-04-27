@@ -6,19 +6,19 @@ const WhatWeDo = () => {
   return (
 
     <Fragment>
-      <section class="WhatWeDoSect">
+      <section id="WhatWeDoSect">
       <Navigation />
         {/* <div id="returnBotton">R</div>
         <div id="box_1">What We Do Box</div>
         <div id="box_2">Maintain Able Box</div>
         <div id="box_3" style={{borderBottomColor: "coral", borderBottomStyle: "solid"}}>GetInTouch Box</div> */}
 
-        <img class="Banner" src="/assets/img/link/front-whatwedo-link.png" alt="What we do banner"></img>
+        <img id="Banner" src="/assets/img/link/front-whatwedo-link.png" alt="What we do banner"></img>
 
         <h2 class="ThereForYou">
           Design is the <span>matter of choice</span> ...
         </h2>
-        <p class="FyldTekst">
+        <p>
           But I must explain to you how all this mistaken idea of denouncing
           pleasure and praising pain was born and I will give you a complete account of the system, and
           expound the actual teachings of the great explorer of the truth, the master-builder of human
@@ -39,7 +39,7 @@ const WhatWeDo = () => {
           those who do not know how to pursue pleasure rationally encounter consequences that are.
         </p>
 
-        <h6 class="WhatWeDo">What We Do</h6>
+        <h6 id="WWD">What We Do</h6>
       </section>
     </Fragment>
   )

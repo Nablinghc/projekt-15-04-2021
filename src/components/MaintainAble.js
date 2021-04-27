@@ -6,7 +6,7 @@ const MaintainAble = () => {
   return (
 
     <Fragment>
-      <section class="MaintainAbleSect">
+      <section id="MaintainAbleSect">
       <Navigation />
         {/* <div id="returnBotton">R</div>
         <div id="box_1">What We Do Box</div>
@@ -14,11 +14,11 @@ const MaintainAble = () => {
         <div id="box_3">GetInTouch Box</div> */}
 
 
-        <img class="BannerM" src="/assets/img/link/front-maintainable-link.png" alt="What we do banner"></img>
-        <h2 class="KeepYourAlll">
+        <img id="Banner" src="/assets/img/link/front-maintainable-link.png" alt="What we do banner"></img>
+        <h2 id="KeepYourAlll">
           Keep your alll <span>upto date</span> ...
         </h2>
-        <p class="FyldTekstM">
+        <p>
           But I must explain to you how all this mistaken idea of denouncing
         
           <br></br>
@@ -36,7 +36,7 @@ const MaintainAble = () => {
           happiness.
         </p>
 
-        <h6 class="MaintainAble">MaintainAble</h6>
+        <h6 id="MA">MaintainAble</h6>
       </section>
     </Fragment>
   )
